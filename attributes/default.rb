@@ -10,3 +10,4 @@ default["simple_iptables"]["policy"]["filter"] = {}
 default["simple_iptables"]["policy"]["nat"] = {}
 default["simple_iptables"]["policy"]["mangle"] = {}
 default["simple_iptables"]["policy"]["raw"] = {}
+default["simple_iptables"]["supported_tables"] = ["nat","filter","mangle","raw"]
